@@ -15,6 +15,7 @@ jobs:
       - name: Run tests
         run : npm test
   deploy:
+    runs-on: ubuntu-latest
     steps:
       - name: deploy
         run: echo React desplegado                
