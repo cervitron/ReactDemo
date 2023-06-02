@@ -13,4 +13,8 @@ jobs:
       - name: install dependencies
         run: npm ci
       - name: Run tests
-        run : npm test          
+        run : npm test
+  deploy:
+    steps:
+      - name: deploy
+        run: echo React desplegado                
